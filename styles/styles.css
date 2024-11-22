@@ -1,0 +1,144 @@
+:root{
+    --text-brand-light: #2B7FFF;
+    --text-brand-dark: #011C44;
+}
+
+body {
+    font-family: Roboto;
+    line-height: 1.2;
+    color: var(--text-brand-dark);
+    font-weight: 400;
+}
+/*Header section*/
+header{
+    background: #FFFFFF40;
+    font-size: 18px;
+}
+.logo{
+    color:var(--text-brand-light);
+    text-transform: capitalize;
+    font-family: Play;
+    font-size: 22px;
+    line-height: 1;
+    font-weight: 700;
+}
+.header-menu{
+    color: var(--text-brand-dark);
+    
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: var(--text-brand-dark);   
+}
+a:hover{
+    color: var(--text-brand-light);
+    font-weight: 700;
+}
+/*Hero section*/
+.pretitle{
+    font-family: Roboto;
+   
+}
+.title{
+    font-family: Play;
+    color: var(--text-brand-light);
+    text-transform: capitalize;
+    font-size: 140px;
+    font-weight: 700;
+}
+.button{
+    background-color: var(--text-brand-light);
+    padding-left: 32px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 32px;
+    border-radius: 32px;
+    border-color: #2B7FFF;
+    color: #FFFFFF;
+    font-family: Roboto;
+    gap: 10px;
+    font-weight: 600;
+    font-size: 18px;
+}
+.button:active{
+    border-color: #2B7FFF;
+    background-color: transparent;
+    color: var(--text-brand-dark);
+}
+.call-button-undertext{
+    font-size: 12px;
+    line-height: 18px;
+    color: #000000;
+}
+/*About section*/
+.about-section > h1{
+    font-family: Play;
+    font-weight: 700;
+    font-size: 64px;
+
+}
+.about-section > p{
+    font-size: 22px;
+    line-height: 1.7;
+    color: var(--text-brand-dark);
+}
+.about-section > p >span{
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.text-brand-light{
+    color: var(--text-brand-light);
+}
+.text-brand-dark{
+    color: var(--text-brand-dark);
+}
+
+/*Advantages section*/
+.advantages-section > h1{
+    font-family: Play;
+    font-weight: 700;
+    font-size: 64px;
+    text-align: center;
+}
+/*Procedures section*/
+.procedures-section > h1{
+    font-family: Play;
+    font-weight: 700;
+    font-size: 64px;
+    text-align: center;
+
+}
+/*Map section*/
+.map-section > h1{
+    font-family: Play;
+    font-weight: 700;
+    font-size: 64px;
+    text-align: center;
+}
+.map{
+    border-radius: 32px;
+}
+/*Footer section*/
+footer{
+ background-color: #011C44;
+ color: #FFFFFF;
+ font-size: 16px;
+}
+.footer > h3{
+    font-family: Play;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.footer-link{
+    color: #FFFFFF;
+    font-size: 16px;
+}
+.copyright{
+    font-size: 13px;
+    color: #747272;
+}
